@@ -234,6 +234,11 @@
       document.documentElement.classList.add('shopify-design-mode');
     }
     </script>
+
+    <!---Swiper Slider --->
+    {{ 'swiper-bundle.min.css' | asset_url | stylesheet_tag }}
+    <script src="{{ 'swiper-bundle.min.js' | asset_url }}" defer="defer"></script>
+    <!---End Swiper Slider --->
   </head>
 
   <body class="gradient">
@@ -245,7 +250,7 @@
       {%- render 'cart-drawer' -%}
     {%- endif -%}
 
-    {% section 'announcement-bar' %}
+    {% section 'announcement-bar-new' %}
     {% section 'header' %}
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
       {{ content_for_layout }}
