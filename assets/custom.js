@@ -17,8 +17,8 @@ if (!customElements.get('announcement-bar')) {
           prevEl: '.swiper-button-prev',
         }
       }
-      
-      if(this.autoplay){
+
+      if(this.autoplay == true){
         settings.autoplay ={
           delay: this.delay,
           disableOnInteraction: false,
