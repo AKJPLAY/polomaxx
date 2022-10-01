@@ -2201,7 +2201,7 @@ announcement-bar .swiper-button-next {
 announcement-bar .swiper-button-prev::after,
 announcement-bar .swiper-button-next::after {
   font-size: 0.8em;
-}
+} 
 
 .announcement-bar__link:hover {
   color: rgb(var(--color-foreground));
