@@ -405,6 +405,9 @@
       "settings": {
         "background": {
           "label": "Background Color"
+        },
+        "text_color": {
+          "label": "Text Color"
         }
       },
       "blocks": {
