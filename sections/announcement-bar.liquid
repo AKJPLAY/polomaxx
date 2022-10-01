@@ -1,4 +1,4 @@
-<announcement-bar>
+<announcement-bar autoplay="{{ section.settings.autoplay }}" delay="{{ section.settings.duration }}">
 <div class="swiper"> 
   <div class="swiper-wrapper">
     {%- for block in section.blocks -%}
@@ -54,6 +54,19 @@
       "id": "text_color",
       "label": "t:sections.announcement-bar.settings.text_color.label",
       "default": "#000000"
+    },
+    {
+      "type": "checkbox",
+      "id": "autoplay",
+      "label": "t:sections.announcement-bar.settings.autoplay.label",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "duration",
+      "label": "t:sections.announcement-bar.settings.duration.label",
+      "default": "2500",
+      "info": "t:sections.announcement-bar.settings.duration.info"
     }
   ],
   "blocks": [

@@ -408,6 +408,13 @@
         },
         "text_color": {
           "label": "Text Color"
+        },
+        "autoplay": {
+          "label": "Autoplay"
+        },
+        "duration": {
+          "label": "Duration",
+          "info": "Duration in ms"
         }
       },
       "blocks": {
