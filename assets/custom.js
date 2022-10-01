@@ -5,7 +5,7 @@ if (!customElements.get('announcement-bar')) {
       super();
 
       this.swiperContainer = this.querySelector('.swiper');
-      this.autoplay = Boolean.parseBoolean(this.getAttribute('autoplay'));
+      this.autoplay = this.getAttribute('autoplay');
       this.delay = Number(this.getAttribute('delay'));
 
       console.log('autoplay', this.autoplay);
@@ -20,7 +20,7 @@ if (!customElements.get('announcement-bar')) {
         }
       }
 
-      if(this.autoplay == true){
+      if(this.autoplay === 'true'){
         settings.autoplay ={
           delay: this.delay,
           disableOnInteraction: false,
