@@ -127,7 +127,7 @@
             "settings": {
               "text": "Welcome to our store",
               "text_alignment": "center",
-              "color_scheme": "background-1",
+              "color_scheme": "accent-1",
               "link": ""
             }
           },
@@ -218,35 +218,6 @@
         "type": "main-password-footer",
         "settings": {
           "color_scheme": "background-1"
-        }
-      },
-      "announcement-bar-new": {
-        "type": "announcement-bar-new",
-        "blocks": {
-          "announcement-bar-new-0": {
-            "type": "announcement",
-            "settings": {
-              "text": "Welcome to our store",
-              "text_alignment": "center",
-              "color_scheme": "accent-1",
-              "link": ""
-            }
-          },
-          "0270b4cd-36ad-4283-877e-a7f2406cbea5": {
-            "type": "announcement",
-            "settings": {
-              "text": "New Message",
-              "text_alignment": "center",
-              "color_scheme": "accent-1",
-              "link": ""
-            }
-          }
-        },
-        "block_order": [
-          "announcement-bar-new-0",
-          "0270b4cd-36ad-4283-877e-a7f2406cbea5"
-        ],
-        "settings": {
         }
       }
     },
