@@ -415,6 +415,9 @@
         "duration": {
           "label": "Duration",
           "info": "Duration in ms"
+        },
+        "arrow_color": {
+          "label": "Arrow Color"
         }
       },
       "blocks": {
