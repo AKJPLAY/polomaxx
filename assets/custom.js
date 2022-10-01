@@ -5,20 +5,26 @@ if (!customElements.get('announcement-bar')) {
       super();
 
       this.swiperContainer = this.querySelector('.swiper');
-      const swiper = new Swiper(this.swiperContainer, {
+      this.autoplay = Boolean(this.getAttribute('autoplay'));
+      this.delay = Number(this.getAttribute('delay'));
+      const settings = {
         // Optional parameters
         direction: 'horizontal',
         loop: true,
-        autoplay: {
-          delay: 2500,
-          disableOnInteraction: false,
-        },
         // Navigation arrows
         navigation: {
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
         }
-      });
+      }
+      
+      if(this.autoplay){
+        settings.autoplay ={
+          delay: this.delay,
+          disableOnInteraction: false,
+        }
+      }
+      const swiper = new Swiper(this.swiperContainer, settings);
     }
   })
 }
