@@ -32,8 +32,13 @@
     <!-- If we need scrollbar -->
     <div class="swiper-scrollbar"></div>
   {% endcomment %}
-  <div class="swiper-button-prev"></div>
-  <div class="swiper-button-next"></div>
+  <div class="section-swiper-btn-{{ section.id }} swiper-button-prev"></div>
+  <div class="section-swiper-btn-{{ section.id }} swiper-button-next"></div>
+  <style>
+    .section-swiper-btn-{{ section.id }}::after {
+      color: {{ section.settings.arrow_color }};
+    }
+  </style>
 </div>
 </announcement-bar>
 
@@ -67,6 +72,12 @@
       "label": "t:sections.announcement-bar.settings.duration.label",
       "default": "2500",
       "info": "t:sections.announcement-bar.settings.duration.info"
+    },
+    {
+      "type": "color",
+      "id": "arrow_color",
+      "label": "t:sections.announcement-bar.settings.arrow_color.label",
+      "default": "#FFFFFF"
     }
   ],
   "blocks": [

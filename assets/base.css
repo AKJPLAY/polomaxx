@@ -2191,6 +2191,18 @@ input[type='checkbox'] {
   text-decoration: none;
 }
 
+announcement-bar .swiper-button-prev,
+announcement-bar .swiper-button-next {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+announcement-bar .swiper-button-prev::after,
+announcement-bar .swiper-button-next::after {
+  font-size: 1.8rem;
+}
+
 .announcement-bar__link:hover {
   color: rgb(var(--color-foreground));
   background-color: rgba(var(--color-card-hover), 0.06);
