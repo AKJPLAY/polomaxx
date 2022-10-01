@@ -127,7 +127,6 @@
             "settings": {
               "text": "Welcome to our store",
               "text_alignment": "center",
-              "color_scheme": "accent-1",
               "link": ""
             }
           },
@@ -136,7 +135,6 @@
             "settings": {
               "text": "Welcome to our store",
               "text_alignment": "center",
-              "color_scheme": "accent-1",
               "link": ""
             }
           }
@@ -146,6 +144,7 @@
           "22ad186e-c63e-4172-8ca8-f650d893be28"
         ],
         "settings": {
+          "background": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(0, 0, 0, 1) 100%)"
         }
       },
       "header": {
