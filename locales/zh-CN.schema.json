@@ -402,6 +402,11 @@
     },
     "announcement-bar": {
       "name": "公告栏",
+      "settings": {
+        "background": {
+          "label": "Background Color"
+        }
+      },
       "blocks": {
         "announcement": {
           "settings": {

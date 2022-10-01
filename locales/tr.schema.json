@@ -402,6 +402,11 @@
     },
     "announcement-bar": {
       "name": "Duyuru çubuğu",
+      "settings": {
+        "background": {
+          "label": "Background Color"
+        }
+      },
       "blocks": {
         "announcement": {
           "name": "Duyuru",

@@ -42,17 +42,19 @@
 {
   "name": "t:sections.announcement-bar.name",
   "max_blocks": 12,
+  "settings": [
+    {
+      "type": "color_background",
+      "id": "background",
+      "label": "t:sections.announcement-bar.settings.background.label",
+      "default": "linear-gradient(#ffffff, #000000)"
+    }
+  ],
   "blocks": [
     {
       "type": "announcement",
       "name": "t:sections.announcement-bar.blocks.announcement.name",
       "settings": [
-        {
-          "type": "color_background",
-          "id": "background",
-          "label": "Background",
-          "default": "linear-gradient(#ffffff, #000000)"
-        },
         {
           "type": "text",
           "id": "text",
