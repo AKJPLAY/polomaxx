@@ -5,8 +5,10 @@ if (!customElements.get('announcement-bar')) {
       super();
 
       this.swiperContainer = this.querySelector('.swiper');
-      this.autoplay = Boolean(this.getAttribute('autoplay'));
+      this.autoplay = Boolean.parseBoolean(this.getAttribute('autoplay'));
       this.delay = Number(this.getAttribute('delay'));
+
+      console.log('autoplay', this.autoplay);
       const settings = {
         // Optional parameters
         direction: 'horizontal',
