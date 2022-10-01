@@ -145,7 +145,9 @@
         ],
         "settings": {
           "background": "linear-gradient(180deg, rgba(18, 18, 18, 1), rgba(0, 0, 0, 1) 100%)",
-          "text_color": "#ffffff"
+          "text_color": "#ffffff",
+          "autoplay": false,
+          "duration": "2500"
         }
       },
       "header": {
