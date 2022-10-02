@@ -185,7 +185,7 @@ class PredictiveSearch extends HTMLElement {
   }
 
   open() {
-    this.predictiveSearchResults.style.maxHeight = this.resultsMaxHeight || `${this.getResultsMaxHeight()}px`;
+    //this.predictiveSearchResults.style.maxHeight = this.resultsMaxHeight || `${this.getResultsMaxHeight()}px`;
     this.setAttribute('open', true);
     this.input.setAttribute('aria-expanded', true);
     this.isOpen = true;
@@ -212,3 +212,21 @@ class PredictiveSearch extends HTMLElement {
 }
 
 customElements.define('predictive-search', PredictiveSearch);
+
+let SearchBtn = document.querySelector('.header__icon.header__icon--search');
+let mainContainer = document.querySelector('.menu-side .main-container');
+let searchContainer = document.querySelector('.menu-side .search-container');
+SearchBtn.addEventListener('click', function(e){
+  e.preventDefault();
+  
+  if(this.getAttribute('open')){
+    this.removeAttribute('open');
+    mainContainer.style.translate = '0px 0px';
+    searchContainer.style.translate = '0px 0px';
+  }else {
+    this.setAttribute('open', 'true');
+    mainContainer.style.translate = '0px -75px';
+    searchContainer.style.translate = '0px -75px';
+  }
+  
+});

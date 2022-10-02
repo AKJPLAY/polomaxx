@@ -2180,7 +2180,7 @@ input[type='checkbox'] {
 }
 
 .announcement-bar {
-  border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
+  /* border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08); */
   color: rgb(var(--color-foreground));
 }
 
@@ -2422,12 +2422,33 @@ announcement-bar .swiper-button-next::after {
   width: 2.7rem;
   padding: 0;
 }
+.icon-side svg path{
+  fill: rgba(var(--color-foreground), 0.75);
+  stroke: rgba(var(--color-foreground), 0.75);
+}
+
 
 .header__icon--wishlist .icon,
 .header__icon--search .icon{
   height: 2.5rem;
   width: 2.5rem;
   padding: 0;
+}
+.header__icon--search .close {
+  height: 3rem;
+  width: 3rem;
+}
+
+.header__icon--search .close {
+  display: none;
+}
+
+.header__icon--search[open] .open {
+  display: none;
+}
+
+.header__icon--search[open] .close {
+  display: block;
 }
 
 
@@ -2436,11 +2457,6 @@ announcement-bar .swiper-button-next::after {
   margin-right: -1.2rem;
 }
 
-.header__icon--account svg path{
-  fill: #fff;
-  stroke-width: .8px;
-  stroke: #fff;
-}
 
 @media screen and (max-width: 989px) {
   menu-drawer ~ .header__icons .header__icon--account {

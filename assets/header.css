@@ -1,12 +1,13 @@
 #shopify-section-announcement-bar {
   max-width: calc(100% - 50px);
   margin: 0 auto;
+  z-index: 2;
+  position: relative;
 }
 
 .announcement-bar {
   overflow: hidden;
   transition: max-height 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
-  box-shadow: 2px 3px 12px rgba(0, 0, 0, 0.5);
 }
 
 .header {
@@ -16,7 +17,7 @@
   max-width: calc(100% - 50px);
   margin: 0 auto;
   gap: 50px;
-  height: 75px;
+  min-height: 75px;
   margin-top: -1px;
 }
 .header .menu-side {
@@ -25,9 +26,46 @@
   flex: 0 0 calc(100% - 300px);
   width: 100%;
   display: flex;
-  align-items: center;
+  justify-content: flex-start;
   padding: 0 30px;
   box-shadow: 2px 3px 12px rgba(0, 0, 0, 0.5);
+  height: 75px;
+  overflow: hidden;
+  flex-direction: column;
+}
+.header .menu-side .main-container {
+  display: flex;
+  align-items: center;
+  height: 75px;
+  transition: translate 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.header .menu-side .search-container {
+  transition: translate 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.header .menu-side .search-container .search {
+  max-width: 100%;
+  height: 75px;
+  display: flex;
+  align-items: center;
+}
+.header .menu-side .search-container .search .field input {
+  background: none;
+}
+.header .menu-side .search-container .search .field input:focus {
+  box-shadow: none;
+}
+.header .menu-side .search-container .search .field::after {
+  box-shadow: none;
+  border-bottom: 1px solid rgba(var(--color-foreground), 0.75);
+}
+.header .menu-side .search-container .search .field .field__button > svg path {
+  fill: rgba(var(--color-foreground), 0.75);
+  stroke: rgba(var(--color-foreground), 0.75);
+}
+.header .menu-side .logo-container {
+  height: 75px;
+  display: flex;
+  align-items: center;
 }
 .header .menu-side .logo-container a {
   width: -webkit-max-content;
