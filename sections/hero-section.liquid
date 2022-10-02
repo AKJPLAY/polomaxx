@@ -1,5 +1,28 @@
 <hero-section>
-
+    <div class="swiper hero-swiper">
+        <div class="swiper-wrapper">
+            {%- for block in section.blocks -%}
+                  <div class="swiper-slide">
+                      {%- if block.settings.link != blank -%}
+                        <a href="{{ block.settings.link }}" class="announcement-bar__link link link--text focus-inset animate-arrow">
+                      {%- endif -%}
+                          
+                      {%- if block.settings.link != blank -%}
+                        </a>
+                      {%- endif -%}
+                  </div>
+            {%- endfor -%}
+          </div>
+          {% comment %}
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+        
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+          {% endcomment %}
+          <div class="section-swiper-btn-{{ section.id }} swiper-button-prev"></div>
+          <div class="section-swiper-btn-{{ section.id }} swiper-button-next"></div>
+    </div>
 </hero-section>
 {% schema %}
 {
