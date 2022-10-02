@@ -146,7 +146,7 @@
           "22ad186e-c63e-4172-8ca8-f650d893be28"
         ],
         "settings": {
-          "enable_colors": false,
+          "enable_colors": true,
           "background": "linear-gradient(180deg, rgba(250, 96, 102, 1), rgba(250, 96, 102, 1) 100%)",
           "text_color": "#ffffff",
           "autoplay": true,
