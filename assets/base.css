@@ -2677,7 +2677,7 @@ details[open] > .header__submenu {
 }
 
 .header__menu-item {
-  padding: 1.2rem;
+  padding: 0 1.2rem;
   text-decoration: none;
   color: rgba(var(--color-header-text), 0.75);
 }
@@ -3003,4 +3003,8 @@ details-disclosure > details {
   .localization-form__select:focus {
     outline: transparent solid 1px;
   }
+}
+
+#MainContent {
+  padding-top: 140px;
 }
