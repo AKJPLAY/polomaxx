@@ -2423,8 +2423,8 @@ announcement-bar .swiper-button-next::after {
   padding: 0;
 }
 .icon-side svg path{
-  fill: rgba(var(--color-foreground), 0.75);
-  stroke: rgba(var(--color-foreground), 0.75);
+  fill: rgba(var(--color-header-text), 0.75);
+  stroke: rgba(var(--color-header-text), 0.75);
 }
 
 
@@ -2679,7 +2679,7 @@ details[open] > .header__submenu {
 .header__menu-item {
   padding: 1.2rem;
   text-decoration: none;
-  color: rgba(var(--color-foreground), 0.75);
+  color: rgba(var(--color-header-text), 0.75);
 }
 
 .header__menu-item:hover {
