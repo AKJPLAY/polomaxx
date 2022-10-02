@@ -1,6 +1,6 @@
 {{'hero-section.css' | asset_url | stylesheet_tag }}
 {% assign sizes = '50vw' %}
-<hero-section>
+<hero-section autoplay="{{ section.settings.autoplay }}" delay="{{ section.settings.duration }}">
     <div class="swiper hero-swiper">
         <div class="swiper-wrapper">
             {%- for block in section.blocks -%}
@@ -96,7 +96,19 @@
         }
     ],
    "settings": [
-    
+        {
+            "type": "checkbox",
+            "id": "autoplay",
+            "label": "t:sections.announcement-bar.settings.autoplay.label",
+            "default": true
+        },
+        {
+            "type": "text",
+            "id": "duration",
+            "label": "t:sections.announcement-bar.settings.duration.label",
+            "default": "2500",
+            "info": "t:sections.announcement-bar.settings.duration.info"
+        }
    ]
 }
 {% endschema %}
