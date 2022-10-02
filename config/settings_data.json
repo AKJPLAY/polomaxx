@@ -231,7 +231,7 @@
           "logo_position": "middle-left",
           "menu": "main-menu",
           "enable_sticky_header": true,
-          "background": "linear-gradient(180deg, rgba(40, 62, 186, 1), rgba(40, 160, 186, 1) 100%)"
+          "background": "linear-gradient(180deg, rgba(250, 96, 102, 1), rgba(251, 154, 126, 1) 100%)"
         }
       }
     },
