@@ -319,9 +319,11 @@
       }
     },
     "globel_check": {
-      "enable_color": {
-        "label": "Enable Colors",
-        "info": "By enable this you can customise color scheme for this section"
+      "settings": {
+        "enable_color": {
+          "label": "Enable Colors",
+          "info": "By enable this you can customise color scheme for this section"
+        }
       }
     },
     "cards": {
