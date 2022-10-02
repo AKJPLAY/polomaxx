@@ -2,6 +2,20 @@
   "sections": {
     "1664696650d40bb48d": {
       "type": "hero-section",
+      "blocks": {
+        "e6ef16fe-38b0-4cc7-a568-d712e48a1f6b": {
+          "type": "Slide",
+          "settings": {
+            "title": "FOOTBALL NEVER STOPS.",
+            "content": "This is just the beginning. Get off to a flying start with early access to national team first and second kits.",
+            "btn_text": "Shop Now",
+            "btn_url": "shopify:\/\/collections\/all"
+          }
+        }
+      },
+      "block_order": [
+        "e6ef16fe-38b0-4cc7-a568-d712e48a1f6b"
+      ],
       "settings": {
       }
     },
