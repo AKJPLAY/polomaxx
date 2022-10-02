@@ -21,7 +21,6 @@
     min-height: 75px;
     margin-top: -1px;
     .menu-side {
-        background-color: rgba(var(--rounded-section-color), 1);
         border-radius: 0 0 20px 20px;
         flex: 0 0 calc(100% - 300px);
         width: 100%;
@@ -91,7 +90,6 @@
         align-items: center;
         justify-content: center;
         flex: 0 0 250px;
-        background-color: rgba(var(--rounded-section-color), 1);
         border-radius: 0 0 20px 20px;
     }
 }

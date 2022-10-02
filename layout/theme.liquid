@@ -58,7 +58,6 @@
         --font-body-scale: {{ settings.body_scale | divided_by: 100.0 }};
         --font-heading-scale: {{ settings.heading_scale | times: 1.0 | divided_by: settings.body_scale }};
 
-        --rounded-section-color: {{ settings.rounded_section_color.red }}, {{ settings.rounded_section_color.green }}, {{ settings.rounded_section_color.blue }};
         --color-base-text: {{ settings.colors_text.red }}, {{ settings.colors_text.green }}, {{ settings.colors_text.blue }};
         --color-shadow: {{ settings.colors_text.red }}, {{ settings.colors_text.green }}, {{ settings.colors_text.blue }};
         --color-base-background-1: {{ settings.colors_background_1.red }}, {{ settings.colors_background_1.green }}, {{ settings.colors_background_1.blue }};
@@ -215,6 +214,15 @@
           font-size: 1.6rem;
         }
       }
+
+      /*Rounded Section Color */
+      .header .menu-side,
+      .header .icon-side,
+      .swiper-slide.announcement-bar {
+        background: {{ settings.rounded_section_color }};
+      }
+
+
     {% endstyle %}
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
