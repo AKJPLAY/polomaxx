@@ -318,6 +318,12 @@
         }
       }
     },
+    "globel_check": {
+      "enable_color": {
+        "label": "Enable Colors",
+        "info": "By enable this you can customise color scheme for this section"
+      }
+    },
     "cards": {
       "name": "Cartes de produit",
       "settings": {
