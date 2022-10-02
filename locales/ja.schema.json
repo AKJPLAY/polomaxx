@@ -240,6 +240,7 @@
       }
     },
     "globel_check": {
+      "name": "Globel checks",
       "settings": {
         "enable_color": {
           "label": "Enable Colors",

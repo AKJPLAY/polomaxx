@@ -43,14 +43,6 @@
         }
       }
     },
-    "globel_check": {
-      "settings": {
-        "enable_color": {
-          "label": "Enable Colors",
-          "info": "By enable this you can customise color scheme for this section"
-        }
-      }
-    },
     "cards": {
       "name": "Product cards",
       "settings": {
@@ -2921,6 +2913,14 @@
       },
       "presets": {
         "name": "Collapsible content"
+      }
+    },
+    "globel_check": {
+      "settings": {
+        "enable_color": {
+          "label": "Enable Colors",
+          "info": "By enable this you can customise color scheme for this section"
+        }
       }
     }
   }
