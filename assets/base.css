@@ -2326,12 +2326,13 @@ announcement-bar .swiper-button-next::after {
 }
 
 .header__heading-link:hover .h2 {
-  color: rgb(var(--color-header-text));
+  color: rgb(var(--color-foreground));
 }
 
 .header__heading-link .h2 {
   line-height: 1;
-  color: rgba(var(--color-header-text), 0.75);
+  
+  color: rgb(var(--color-foreground), 0.75);
 }
 
 .header__heading-logo {
@@ -2423,8 +2424,8 @@ announcement-bar .swiper-button-next::after {
   padding: 0;
 }
 .icon-side svg path{
-  fill: rgba(var(--color-header-text), 0.75);
-  stroke: rgba(var(--color-header-text), 0.75);
+  fill: rgb(var(--color-foreground), 0.75);
+  stroke: rgb(var(--color-foreground), 0.75);
 }
 
 
@@ -2679,11 +2680,11 @@ details[open] > .header__submenu {
 .header__menu-item {
   padding: 0 1.2rem;
   text-decoration: none;
-  color: rgba(var(--color-header-text), 0.75);
+  color: rgb(var(--color-foreground), 0.75);
 }
 
 .header__menu-item:hover {
-  color: rgb(var(--color-header-text));
+  color: rgb(var(--color-foreground));
 }
 
 .header__menu-item span {
@@ -2709,7 +2710,7 @@ details[open] > .header__menu-item .icon-caret {
 
 .header__active-menu-item {
   transition: text-decoration-thickness var(--duration-short) ease;
-  color: rgb(var(--color-header-text));
+  color: rgb(var(--color-foreground));
   text-decoration: underline;
   text-underline-offset: 0.3rem;
 }

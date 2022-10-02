@@ -56,11 +56,11 @@
         "info": "t:settings_schema.colors.settings.colors_text.info"
       },
       {
-        "type": "color",
-        "id": "header_colors_text",
-        "default": "#121212",
-        "label": "t:settings_schema.colors.settings.header_colors_text.label",
-        "info": "t:settings_schema.colors.settings.header_colors_text.info"
+        "type": "color_background",
+        "id": "rounded_section_color",
+        "default": "linear-gradient(#000000, #000000)",
+        "label": "t:settings_schema.colors.settings.rounded_section_color.label",
+        "info": "t:settings_schema.colors.settings.rounded_section_color.info"
       },
       {
         "type": "color",

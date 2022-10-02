@@ -51,18 +51,18 @@
                         &:focus {
                             box-shadow: none;
                         }
-                        color: rgba(var(--color-header-text), 0.75);
+                        color: rgb(var(--color-foreground), 0.75);
                     }
                     .field__label {
-                        color: rgba(var(--color-header-text), 0.75);
+                        color: rgb(var(--color-foreground), 0.75);
                     }
                     &::after {
                         box-shadow: none;
-                        border-bottom: 1px solid rgba(var(--color-header-text), 0.75);
+                        border-bottom: 1px solid rgb(var(--color-foreground), 0.75);
                     }
                     .field__button > svg path {
-                        fill: rgba(var(--color-header-text), 0.75);
-                        stroke: rgba(var(--color-header-text), 0.75);
+                        fill: rgb(var(--color-foreground), 0.75);
+                        stroke: rgb(var(--color-foreground), 0.75);
                     }
                 }
             }

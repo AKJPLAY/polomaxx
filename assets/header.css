@@ -50,21 +50,21 @@
 }
 .header .menu-side .search-container .search .field input {
   background: none;
-  color: rgba(var(--color-header-text), 0.75);
+  color: rgb(var(--color-foreground), 0.75);
 }
 .header .menu-side .search-container .search .field input:focus {
   box-shadow: none;
 }
 .header .menu-side .search-container .search .field .field__label {
-  color: rgba(var(--color-header-text), 0.75);
+  color: rgb(var(--color-foreground), 0.75);
 }
 .header .menu-side .search-container .search .field::after {
   box-shadow: none;
-  border-bottom: 1px solid rgba(var(--color-header-text), 0.75);
+  border-bottom: 1px solid rgb(var(--color-foreground), 0.75);
 }
 .header .menu-side .search-container .search .field .field__button > svg path {
-  fill: rgba(var(--color-header-text), 0.75);
-  stroke: rgba(var(--color-header-text), 0.75);
+  fill: rgb(var(--color-foreground), 0.75);
+  stroke: rgb(var(--color-foreground), 0.75);
 }
 .header .menu-side .logo-container {
   height: 75px;

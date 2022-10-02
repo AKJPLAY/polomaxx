@@ -114,6 +114,10 @@
     "colors": {
       "name": "Colors",
       "settings": {
+        "rounded_section_color": {
+          "label": "Rounded Section Color",
+          "info": "Used as Rounded Section Color in All Section"
+        },
         "colors_solid_button_labels": {
           "label": "Solid button label",
           "info": "Used as foreground color on accent colors."
@@ -140,10 +144,6 @@
         "colors_text": {
           "label": "Text",
           "info": "Used as foreground color on background colors."
-        },
-        "header_colors_text": {
-          "label": "Header Text",
-          "info": "Used as Header Text color"
         },
         "colors_outline_button_labels": {
           "label": "Outline button",
