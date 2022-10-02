@@ -145,7 +145,7 @@
           "22ad186e-c63e-4172-8ca8-f650d893be28"
         ],
         "settings": {
-          "background": "linear-gradient(180deg, rgba(60, 121, 134, 1), rgba(60, 121, 134, 1) 100%)",
+          "background": "linear-gradient(180deg, rgba(60, 121, 134, 1), rgba(40, 160, 186, 1) 100%)",
           "text_color": "#ffffff",
           "autoplay": true,
           "duration": "5000",
