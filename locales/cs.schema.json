@@ -24,6 +24,10 @@
           "label": "Text",
           "info": "Používá se jako barva popředí v kombinaci s barvami pozadí."
         },
+        "header_colors_text": {
+          "label": "Header Text",
+          "info": "Used as Header Text color"
+        },
         "colors_outline_button_labels": {
           "label": "Tlačítko s obrysem",
           "info": "Používá se také pro textové odkazy."

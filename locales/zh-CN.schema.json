@@ -24,6 +24,10 @@
           "label": "文本",
           "info": "用作背景色上的前景色。"
         },
+        "header_colors_text": {
+          "label": "Header Text",
+          "info": "Used as Header Text color"
+        },
         "colors_outline_button_labels": {
           "label": "轮廓按钮",
           "info": "也用于文本链接。"

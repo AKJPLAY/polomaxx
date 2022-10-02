@@ -24,6 +24,10 @@
           "label": "텍스트",
           "info": "배경색 위에 전경색으로 사용됩니다."
         },
+        "header_colors_text": {
+          "label": "Header Text",
+          "info": "Used as Header Text color"
+        },
         "colors_outline_button_labels": {
           "label": "윤곽 버튼",
           "info": "또한 텍스트 링크에도 사용됩니다."

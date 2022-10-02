@@ -24,6 +24,10 @@
           "label": "文字",
           "info": "用來做為背景顏色的前景顏色。"
         },
+        "header_colors_text": {
+          "label": "Header Text",
+          "info": "Used as Header Text color"
+        },
         "colors_outline_button_labels": {
           "label": "外框按鈕",
           "info": "也用來做為文字連結。"

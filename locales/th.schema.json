@@ -24,6 +24,10 @@
           "label": "ข้อความ",
           "info": "ใช้เป็นสีพื้นหน้าบนสีพื้นหลัง"
         },
+        "header_colors_text": {
+          "label": "Header Text",
+          "info": "Used as Header Text color"
+        },
         "colors_outline_button_labels": {
           "label": "ปุ่มแบบเค้าโครง",
           "info": "ใช้กับลิงก์ข้อความได้อีกด้วย"

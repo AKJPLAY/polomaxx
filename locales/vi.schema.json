@@ -24,6 +24,10 @@
           "label": "Văn bản",
           "info": "Được sử dụng làm màu tiền cảnh trên màu nền."
         },
+        "header_colors_text": {
+          "label": "Header Text",
+          "info": "Used as Header Text color"
+        },
         "colors_outline_button_labels": {
           "label": "Nút viền ngoài",
           "info": "Cũng được sử dụng cho liên kết văn bản."

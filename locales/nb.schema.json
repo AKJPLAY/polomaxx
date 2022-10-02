@@ -24,6 +24,10 @@
           "label": "Tekst",
           "info": "Brukes som forgrunnsfarge på bakgrunnsfarger."
         },
+        "header_colors_text": {
+          "label": "Header Text",
+          "info": "Used as Header Text color"
+        },
         "colors_outline_button_labels": {
           "label": "Omriss rundt knapp",
           "info": "Brukes også til tekstkoblinger."

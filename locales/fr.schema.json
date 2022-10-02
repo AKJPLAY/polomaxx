@@ -24,6 +24,10 @@
           "label": "Texte",
           "info": "Utilisé comme couleur de premier plan sur les couleurs d'arrière-plan."
         },
+        "header_colors_text": {
+          "label": "Header Text",
+          "info": "Used as Header Text color"
+        },
         "colors_outline_button_labels": {
           "label": "Bouton en relief",
           "info": "Utilisé également pour les liens de texte."

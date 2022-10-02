@@ -24,6 +24,10 @@
           "label": "Texto",
           "info": "Usada como cor de primeiro plano sobre as cores de fundo."
         },
+        "header_colors_text": {
+          "label": "Header Text",
+          "info": "Used as Header Text color"
+        },
         "colors_outline_button_labels": {
           "label": "Botão com contorno",
           "info": "Também é usado em links de texto."

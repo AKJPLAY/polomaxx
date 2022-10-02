@@ -24,6 +24,10 @@
           "label": "Text",
           "info": "Wird als Vordergrundfarbe für Hintergrundfarben verwendet."
         },
+        "header_colors_text": {
+          "label": "Header Text",
+          "info": "Used as Header Text color"
+        },
         "colors_outline_button_labels": {
           "label": "Umriss-Schaltfläche",
           "info": "Wird auch für Textlinks verwendet."

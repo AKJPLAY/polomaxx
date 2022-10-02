@@ -24,6 +24,10 @@
           "label": "Tekst",
           "info": "Używany jako kolor pierwszego planu na kolorach tła."
         },
+        "header_colors_text": {
+          "label": "Header Text",
+          "info": "Used as Header Text color"
+        },
         "colors_outline_button_labels": {
           "label": "Przycisk konspektu",
           "info": "Używany również dla linków tekstowych."

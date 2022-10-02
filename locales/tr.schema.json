@@ -24,6 +24,10 @@
           "label": "Metin",
           "info": "Arka plan renklerinde ön plan rengi olarak kullanılır."
         },
+        "header_colors_text": {
+          "label": "Header Text",
+          "info": "Used as Header Text color"
+        },
         "colors_outline_button_labels": {
           "label": "Dış çizgi düğmesi",
           "info": "Metin bağlantıları için de kullanılır."
