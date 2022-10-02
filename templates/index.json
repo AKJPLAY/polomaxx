@@ -37,6 +37,8 @@
         "60846ec2-71a8-47af-b545-135a5397457c"
       ],
       "settings": {
+        "autoplay": false,
+        "duration": "5000"
       }
     },
     "image_banner": {
