@@ -6,7 +6,7 @@
     "colors_accent_2": "#334fb4",
     "gradient_accent_2": "",
     "colors_text": "#121212",
-    "header_colors_text": "#ffffff",
+    "rounded_section_color": "linear-gradient(180deg, rgba(24, 120, 185, 1), rgba(24, 120, 185, 1) 100%)",
     "colors_outline_button_labels": "#121212",
     "colors_background_1": "#ffffff",
     "gradient_background_1": "",
@@ -119,6 +119,7 @@
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
     "currency_code_enabled": true,
+    "header_colors_text": "#ffffff",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
@@ -228,6 +229,7 @@
       "header-new": {
         "type": "header-new",
         "settings": {
+          "enable_colors": false,
           "logo_width": 100,
           "logo_position": "middle-left",
           "menu": "main-menu",
