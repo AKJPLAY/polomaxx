@@ -3009,3 +3009,9 @@ details-disclosure > details {
     outline: transparent solid 1px;
   }
 }
+
+
+.swiper-button-prev,
+.swiper-button-next {
+  display: block !important; 
+}
