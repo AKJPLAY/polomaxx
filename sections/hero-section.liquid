@@ -1,12 +1,40 @@
+{{'hero-section.css' | asset_url | stylesheet_tag }}
+{% assign sizes = '50vw' %}
 <hero-section>
     <div class="swiper hero-swiper">
         <div class="swiper-wrapper">
             {%- for block in section.blocks -%}
-                  <div class="swiper-slide">
-                      <div class="inner-card">
-                        
-                      </div>
-                  </div>
+                <div class="swiper-slide">
+                    <div class="inner-card">
+                        <div class="image-box">
+                            {% if block.settings.image != blank %}
+                                {{ block.settings.image | image_url: width: 1500 | image_tag:
+                                    loading: 'lazy',
+                                    width: block.settings.image.width,
+                                    class: 'hero-image',
+                                    sizes: sizes,
+                                    widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840',
+                                    alt: block.settings.image.alt | escape
+                                  }}
+                            {% else %}
+                                {{ 'collection-2' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
+                            {% endif %}
+                            
+                        </div>
+                        <div class="content-box">
+                            <h2 class="title">
+                                {{ block.settings.title }}
+                            </h2>
+                            <p class="peragraph">
+                                {{ block.settings.content }}
+                            </p>
+
+                            {% if block.settings.btn_text != blank %}
+                                <a href="{{ block.settings.btn_url }}" class="button button--secondary">{{ block.settings.btn_text }}</a>    
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
             {%- endfor -%}
           </div>
           {% comment %}
@@ -28,6 +56,43 @@
     "presets": [
         {
             "name":"Hero Section"
+        }
+    ],
+    "blocks": [
+        {
+           "name": "Slide",
+           "type": "Slide",
+           "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": "Choose Image"
+                },
+                {
+                    "type": "text",
+                    "id": "title",
+                    "label": "Title",
+                    "default": "FOOTBALL NEVER STOPS."
+                },
+                {
+                    "type": "textarea",
+                    "id": "content",
+                    "label": "Content",
+                    "default": "This is just the beginning. Get off to a flying start with early access to national team first and second kits."
+                },
+                {
+                    "type": "text",
+                    "id": "btn_text",
+                    "label": "Button text",
+                    "default": "Shop Now"
+                },
+                {
+                    "type": "url",
+                    "id": "btn_url",
+                    "label": "Button URL",
+                    "default": "/collections/all"
+                }
+           ]
         }
     ],
    "settings": [

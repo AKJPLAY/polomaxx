@@ -1,0 +1,33 @@
+.hero-section .hero-swiper {
+  max-width: calc(100% - 50px);
+  margin: 0 auto;
+  border-radius: 20px;
+  box-shadow: 2px 3px 12px rgba(0, 0, 0, 0.5);
+}
+.hero-section .swiper-slide .inner-card {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 700px;
+  gap: 20px;
+}
+.hero-section .swiper-slide .inner-card .image-box {
+  flex: 0 0 50%;
+  max-width: 700px;
+}
+.hero-section .swiper-slide .inner-card .image-box img, .hero-section .swiper-slide .inner-card .image-box svg {
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.hero-section .swiper-slide .inner-card .image-box svg {
+  background-color: transparent;
+}
+.hero-section .swiper-slide .inner-card .content-box {
+  max-width: 700px;
+}/*# sourceMappingURL=hero-section.css.map */
