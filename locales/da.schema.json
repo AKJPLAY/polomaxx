@@ -884,6 +884,9 @@
           "options__2": {
             "label": "Venstre"
           }
+        },
+        "background": {
+          "label": "Background Color"
         }
       }
     },

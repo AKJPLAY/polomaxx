@@ -884,6 +884,9 @@
           "options__2": {
             "label": "Sol"
           }
+        },
+        "background": {
+          "label": "Background Color"
         }
       }
     },

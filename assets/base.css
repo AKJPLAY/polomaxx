@@ -2411,16 +2411,35 @@ announcement-bar .swiper-button-next::after {
   vertical-align: middle;
 }
 
-.header__icon,
-.header__icon--cart .icon {
+.header__icon {
   height: 4.4rem;
   width: 4.4rem;
   padding: 0;
 }
 
+.header__icon--cart .icon {
+  height: 2.7rem;
+  width: 2.7rem;
+  padding: 0;
+}
+
+.header__icon--wishlist .icon,
+.header__icon--search .icon{
+  height: 2.5rem;
+  width: 2.5rem;
+  padding: 0;
+}
+
+
 .header__icon--cart {
   position: relative;
   margin-right: -1.2rem;
+}
+
+.header__icon--account svg path{
+  fill: #fff;
+  stroke-width: .8px;
+  stroke: #fff;
 }
 
 @media screen and (max-width: 989px) {

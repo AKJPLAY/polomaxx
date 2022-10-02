@@ -884,6 +884,9 @@
           "options__2": {
             "label": "Links"
           }
+        },
+        "background": {
+          "label": "Background Color"
         }
       }
     },

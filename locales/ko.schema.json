@@ -884,6 +884,9 @@
           "options__2": {
             "label": "왼쪽"
           }
+        },
+        "background": {
+          "label": "Background Color"
         }
       }
     },

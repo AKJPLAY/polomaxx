@@ -1016,6 +1016,9 @@
           "options__2": {
             "label": "Left"
           }
+        },
+        "background": {
+          "label": "Background Color"
         }
       }
     },

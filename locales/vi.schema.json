@@ -884,6 +884,9 @@
           "options__2": {
             "label": "Bên trái"
           }
+        },
+        "background": {
+          "label": "Background Color"
         }
       }
     },

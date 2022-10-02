@@ -248,10 +248,10 @@
     {%- if settings.cart_type == 'drawer' -%}
       {%- render 'cart-drawer' -%}
     {%- endif -%}
-    <div class="top-sticky-container">
+    <top-sticky-container class="top-sticky-container">
       {% section 'announcement-bar' %}
       {% section 'header-new' %}
-    </div> 
+    </top-sticky-container> 
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
       {{ content_for_layout }}
     </main>
