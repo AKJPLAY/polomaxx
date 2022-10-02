@@ -6,7 +6,7 @@
     "colors_accent_2": "#334fb4",
     "gradient_accent_2": "",
     "colors_text": "#121212",
-    "rounded_section_color": "linear-gradient(180deg, rgba(24, 120, 185, 1), rgba(24, 120, 185, 1) 100%)",
+    "rounded_section_color": "linear-gradient(180deg, rgba(173, 199, 217, 1), rgba(151, 165, 175, 1) 100%)",
     "colors_outline_button_labels": "#121212",
     "colors_background_1": "#ffffff",
     "gradient_background_1": "",
