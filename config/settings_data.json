@@ -145,7 +145,7 @@
           "22ad186e-c63e-4172-8ca8-f650d893be28"
         ],
         "settings": {
-          "background": "linear-gradient(180deg, rgba(60, 121, 134, 1), rgba(40, 160, 186, 1) 100%)",
+          "background": "linear-gradient(180deg, rgba(40, 62, 186, 1), rgba(40, 62, 186, 1) 100%)",
           "text_color": "#ffffff",
           "autoplay": true,
           "duration": "5000",
@@ -230,8 +230,8 @@
           "logo_width": 100,
           "logo_position": "middle-left",
           "menu": "main-menu",
-          "enable_sticky_header": false,
-          "background": "linear-gradient(180deg, rgba(40, 160, 186, 1), rgba(40, 160, 186, 1) 100%)"
+          "enable_sticky_header": true,
+          "background": "linear-gradient(180deg, rgba(40, 62, 186, 1), rgba(40, 160, 186, 1) 100%)"
         }
       }
     },
@@ -367,7 +367,6 @@
               "type": "announcement",
               "settings": {
                 "text": "Welcome to our store",
-                "color_scheme": "background-1",
                 "link": ""
               }
             }
@@ -376,6 +375,8 @@
             "announcement-bar-0"
           ],
           "settings": {
+            "text_color": "#000000",
+            "arrow_color": "#FFFFFF"
           }
         },
         "header": {
