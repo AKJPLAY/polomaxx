@@ -34,11 +34,13 @@
   {% endcomment %}
   <div class="section-swiper-btn-{{ section.id }} swiper-button-prev"></div>
   <div class="section-swiper-btn-{{ section.id }} swiper-button-next"></div>
-  <style>
-    .section-swiper-btn-{{ section.id }}::after {
-      color: {{ section.settings.arrow_color }};
-    }
-  </style>
+  {% if section.settings.enable_colors %}
+    <style>
+      .section-swiper-btn-{{ section.id }}::after {
+        color: {{ section.settings.arrow_color }};
+      }
+    </style>
+  {% endif %}
 </div>
 </announcement-bar>
 
