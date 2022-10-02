@@ -17,6 +17,11 @@
         display: flex;
         align-items: center;
         padding: 0 30px;
+        .logo-container {
+            a {
+                width: max-content;
+            }
+        }
         .header__inline-menu {
             margin-top: 0px;
             .list-menu {

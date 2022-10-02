@@ -20,6 +20,11 @@
   align-items: center;
   padding: 0 30px;
 }
+.header .menu-side .logo-container a {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
 .header .menu-side .header__inline-menu {
   margin-top: 0px;
 }
