@@ -2326,12 +2326,12 @@ announcement-bar .swiper-button-next::after {
 }
 
 .header__heading-link:hover .h2 {
-  color: rgb(var(--color-foreground));
+  color: rgb(var(--color-header-text));
 }
 
 .header__heading-link .h2 {
   line-height: 1;
-  color: rgba(var(--color-foreground), 0.75);
+  color: rgba(var(--color-header-text), 0.75);
 }
 
 .header__heading-logo {
@@ -2683,7 +2683,7 @@ details[open] > .header__submenu {
 }
 
 .header__menu-item:hover {
-  color: rgb(var(--color-foreground));
+  color: rgb(var(--color-header-text));
 }
 
 .header__menu-item span {
@@ -2709,7 +2709,7 @@ details[open] > .header__menu-item .icon-caret {
 
 .header__active-menu-item {
   transition: text-decoration-thickness var(--duration-short) ease;
-  color: rgb(var(--color-foreground));
+  color: rgb(var(--color-header-text));
   text-decoration: underline;
   text-underline-offset: 0.3rem;
 }
